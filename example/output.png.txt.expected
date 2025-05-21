@@ -1,0 +1,17 @@
+digraph g {
+ "history_heredity" -> "s_sn_gt_2k" [dir=both, arrowtail=odot, arrowhead=odot, label="history_heredity - s_sn_gt_2k\n[o-o]:0.5\n[no edge]:0.5", fontname=courier]; 
+ "m_m_sn_gt_2k" -> "notch_4k" [dir=both, arrowtail=odot, arrowhead=odot, label="m_m_sn_gt_2k - notch_4k\n[o-o]:0.5\n[o->]:0.5", fontname=courier]; 
+ "history_ringing" -> "m_sn_gt_500" [dir=both, arrowtail=odot, arrowhead=odot, label="history_ringing - m_sn_gt_500\n[o-o]:0.8333333333333334\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "bone" -> "indentifier" [dir=both, arrowtail=odot, arrowhead=normal, label="bone - indentifier\n[o->]:0.8333333333333334\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "o_ar_c" -> "o_ar_u" [dir=both, arrowtail=odot, arrowhead=odot, label="o_ar_c - o_ar_u\n[o-o]:0.3333333333333333\n[<-o]:0.3333333333333333\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "age_gt_60" -> "indentifier" [dir=both, arrowtail=odot, arrowhead=normal, label="age_gt_60 - indentifier\n[o->]:0.8333333333333334\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "history_fluctuating" -> "m_sn_lt_1k" [dir=both, arrowtail=normal, arrowhead=odot, label="history_fluctuating - m_sn_lt_1k\n[o-o]:0.3333333333333333\n[<-o]:0.6666666666666666", fontname=courier]; 
+ "history_buzzing" -> "wave_V_delayed" [dir=both, arrowtail=odot, arrowhead=odot, label="history_buzzing - wave_V_delayed\n[o-o]:0.8333333333333334\n[no edge]:0.16666666666666666", fontname=courier]; 
+ "bser" -> "late_wave_poor" [dir=both, arrowtail=odot, arrowhead=odot, label="bser - late_wave_poor\n[o-o]:0.6666666666666666\n[<-o]:0.16666666666666666\n[--> dd nl]:0.16666666666666666", fontname=courier]; 
+ "history_nausea" -> "history_roaring" [dir=both, arrowtail=odot, arrowhead=odot, label="history_nausea - history_roaring\n[<-o]:0.16666666666666666\n[o->]:0.16666666666666666\n[o-o]:0.6666666666666666", fontname=courier]; 
+ "airBoneGap" -> "tymp" [dir=both, arrowtail=odot, arrowhead=normal, label="airBoneGap - tymp\n[o->]:0.6666666666666666\n[o-o]:0.3333333333333333", fontname=courier]; 
+ "history_dizziness" -> "static_normal" [dir=both, arrowtail=odot, arrowhead=odot, label="history_dizziness - static_normal\n[o-o]:0.5\n[no edge]:0.5", fontname=courier]; 
+ "boneAbnormal" -> "indentifier" [dir=both, arrowtail=odot, arrowhead=normal, label="boneAbnormal - indentifier\n[o->]:0.5\n[no edge]:0.5", fontname=courier]; 
+ "m_s_sn_gt_2k" -> "tymp" [dir=both, arrowtail=odot, arrowhead=normal, label="m_s_sn_gt_2k - tymp\n[o->]:0.5\n[<->]:0.16666666666666666\n[no edge]:0.3333333333333333", fontname=courier]; 
+ "indentifier" -> "speech" [arrowtail=none, arrowhead=normal, label="indentifier - speech\n[<-o]:0.3333333333333333\n[--> dd nl]:0.5\n[no edge]:0.16666666666666666", fontname=courier]; 
+}
